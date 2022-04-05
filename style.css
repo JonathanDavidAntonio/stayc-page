@@ -1,0 +1,153 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: #1F2937;
+}
+.text-header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    gap: 12px;
+}    
+
+.first-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: #1F2937;
+    
+}
+.first-container > *{
+    color: #F9FAF8;
+    justify-content: space-between;
+    margin: 80px;
+}
+
+.first-left-text p{
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+.first-left-text h6{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.first-left-text button{
+    background-color: #3882F6;
+
+}
+/* .first-right-img{
+    background-color: gray;
+    padding: 100px;
+} */
+
+.second-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 80px;
+}
+.second-container > *{
+    color:#1F2937;
+}
+.title{
+    font-size: 30px;
+    font-weight: bolder;
+    padding-bottom: 50px;
+}
+.info-boxes{
+    display: flex;
+    flex: wrap;
+    gap: 8rem;
+}
+.info-boxes img{
+    background-color: #E5E7EB;
+    border: 3px solid skyblue;
+    
+}
+.second-container p{
+    display: flex;
+    flex-direction: column;
+
+}
+.third-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 80px;
+}
+.quote-text p{
+    font: italic;
+    font-size: 36px;
+    color: #1F2937;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.quote-author p{
+    font-weight: bold;
+    color: #1F2937;
+    padding-top: 0px;
+}
+
+.fourth-container{
+    background-color: #F9FAF8;
+    display: flex;
+    padding: 50px;
+}
+.box-call{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    background-color: #3882F6;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+}
+.box-call > *{
+    flex: wrap;
+}
+.title-call{
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 20px;
+}
+.subtext-call{
+    color:#F9FAF8
+}
+.fourth-container-right button{
+    width: 100px;
+    height: 50px;
+  
+    border-color: #F9FAF8;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
